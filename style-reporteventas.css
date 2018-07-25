@@ -1,0 +1,2 @@
+/*IMPRESION*/
+@media print { @page{ size: 80mm 297mm;  margin: 0 0 0 0;} } 
