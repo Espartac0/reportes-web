@@ -4,20 +4,94 @@
     <meta charset="UTF-8">          
     <link rel="stylesheet" href="style-reporteventas.css">
 </head>
-<body>
+<body>    
     <table class="empresa_cabecera">
-        <tr>MARKET PALERP S.A.C.</tr><br
-        <tr>AV. DE LA CULTURA NRO. 2520 CUSCO - CUSCO - CUSCO</tr>
-        <tr>RUC: 20491228297</tr>
+        <tr><td>MARKET PALERP S.A.C.</td></tr>
+        <tr><td>AV. DE LA CULTURA NRO. 2520 CUSCO - CUSCO - CUSCO</td></tr>
+        <tr><td>RUC: 20491228297</td></tr>           
     </table>
     <table class="usuario_cabecera">
-        <tr>FECHA: 25/07/2018 08:45</tr>
-        <tr>PAGINA: 1 DE 445</tr>
-        <tr>USUARIO: ADMINISTRADOR</tr>
+        <tr><td>FECHA: 25/07/2018 08:45</td></tr>
+        <tr><td>PAGINA: 1 DE 445</td></tr>
+        <tr><td>USUARIO: ADMINISTRADOR</td></tr>  
     </table>
     <table class="titulo">
-        <tr><th>REPORTE DE VENTAS DETALLADO</th></tr>
-        <tr>Sucursal: Todos;   Cliente/Proveedor: Todos   Caja: Todas;   Producto: Todos;   Fecha Inicio: 01/06/2018</tr>
+        <tr><td style="font-weight: bold; font-size: 16px;">REPORTE DETALLADO DE VENTAS</td></tr>
+        <tr><td>Sucursal: Todos;   Cliente/Proveedor: Todos   Caja: Todas;   Producto: Todos;   Fecha Inicio: 01/06/2018 y   Fecha Fin: 20/06/2018;   Turno Inicio: Ninguna y Turno Final: Ninguna;   Moneda: ;   Forma de Pago: EFECTIVO;   Comprobante: Todos;   Serie: Todos;    Categoria: Todos</td></tr>
+    </table>
+    <table class="cabecera_tabla">
+        <tr>
+            <th rowspan="3">Nro</th>
+            <th rowspan="3" style="width: 25px;">Fecha Emisión</th>
+            <th rowspan="3" style="width: 25px;">Fecha Vencimiento</th>
+            <th colspan="3">Comprobante de Pago</th>
+            <th colspan="3">Información del Cliente/Proveedor</th>
+            <th rowspan="3">I.G.V.</th> 
+            <th rowspan="3">Total</th>           
+            <th rowspan="3">Producto</th>
+            <th rowspan="3">Cantidad</th>
+            <th rowspan="3">P.U.</th>
+            <th rowspan="3">Sub-Total</th>
+            <th rowspan="3">Cod. Turno</th>
+            <th rowspan="3">Cod. Moneda</th>
+            <th rowspan="3">Forma de Pago</th>
+            <th rowspan="3">Nro. Operación</th>
+        </tr>
+        <tr>
+            <th rowspan="2">Tipo</th>
+            <th rowspan="2">Serie</th>
+            <th rowspan="2">Numero</th>
+            <th colspan="2" >Doc. Identidad</th>
+            <th rowspan="2" >Nombre o Razón Social</th>
+        </tr>
+        <tr>            
+            <th>Tipo</th>
+            <th>Numero</th>
+        </tr>         
+    </table> 
+    <table class="contenido">
+        <tr>
+            <td>1</td>
+            <td>30/07/2018</td>
+            <td style=" width: 15px;">30/07/2018</td>
+            <td style=" width: 15px;">01</td>
+            <td style=" width: 15px;">F001</td>
+            <td style=" width: 15px;">00098758</td>
+            <td style=" width: 15px;">6</td>
+            <td>20601761310</td>
+            <td>COCK OF THE ROCK LODGE SOCIEDAD ANONIMA CERRADA</td>
+            <td>9.49</td>
+            <td>62.25</td>
+            <td>RICO CHULETA DE CERDO C/LONJA X KG</td>
+            <td>0.895</td>
+            <td>15.9</td>
+            <td>14.23</td>
+            <td>D30/07/2018</td>
+            <td>PEN</td>
+            <td>VISANET</td>
+            <td>54821</td>
+        </tr>
+        <tr>
+                <td>1</td>
+                <td>30/07/2018</td>
+                <td>30/07/2018</td>
+                <td>01</td>
+                <td>F001</td>
+                <td>00098758</td>
+                <td>6</td>
+                <td>20601761310</td>
+                <td>COCK OF THE ROCK LODGE SOCIEDAD ANONIMA CERRADA</td>
+                <td>9.49</td>
+                <td>62.25</td>
+                <td>SAN FERNANDO LA BUENA FAMILIA PECHO DE POLLO*KG</td>
+                <td>4.035</td>
+                <td>11.9</td>
+                <td>48.02</td>
+                <td>D30/07/2018</td>
+                <td>PEN</td>
+                <td>VISANET</td>
+                <td>54821</td>
+            </tr>
     </table>
 </body>
 </html>

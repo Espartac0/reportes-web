@@ -1,2 +1,15 @@
+*{
+    font-family: 'Helvetica';
+    font-size: 10px;
+}
+/*cabecera de reporte*/
+.usuario_cabecera {
+    margin-top: -48px;
+    margin-left: 85%;
+}
+.titulo {
+    margin: 0 auto;
+    text-align: center;
+}
 /*IMPRESION*/
-@media print { @page{ size: A4 landscape;} } 
+@media print { @page{ size: A4 landscape;margin: 0 0 0 0; } }
