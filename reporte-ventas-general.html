@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">          
-    <link rel="stylesheet" href="style-reporteventas.css">
+    <link rel="stylesheet" href="style-reporteventasgeneral.css">
 </head>
 <body>    
     <table class="empresa_cabecera">
@@ -16,8 +16,8 @@
         <tr><td>USUARIO: ADMINISTRADOR</td></tr>  
     </table>
     <table class="titulo">
-        <tr><td style="font-weight: bold; font-size: 16px;">REPORTE DETALLADO DE VENTAS</td></tr>
-        <tr><td>Sucursal: Todos;   Cliente/Proveedor: Todos   Caja: Todas;   Producto: Todos;   Fecha Inicio: 01/06/2018 y   Fecha Fin: 20/06/2018;   Turno Inicio: Ninguna y Turno Final: Ninguna;   Moneda: ;   Forma de Pago: EFECTIVO;   Comprobante: Todos;   Serie: Todos;    Categoria: Todos</td></tr>
+        <tr><td style="font-weight: bold; font-size: 16px;">REPORTE GENERAL DE VENTAS</td></tr>
+        <tr><td>Sucursal: Todos;   Cliente/Proveedor: Todos   Caja: Todas;   Producto: Todos;   Fecha Inicio: 01/06/2018 y   Fecha Fin: 20/06/2018;   Turno Inicio: Ninguna y Turno Final: Ninguna;   Moneda: ;   Forma de Pago: EFECTIVO;   Comprobante: Todos;   Serie: Todos;    Categoria: </td></tr>
     </table>
     <table class="cabecera_tabla">
         <tr>
@@ -26,16 +26,17 @@
             <th rowspan="3" style="width: 25px;padding-left: 10px;">Fecha Cancelación</th>
             <th colspan="3">Comprobante de Pago</th>
             <th colspan="3" style="padding-left: 50px;" >Información del Cliente/Proveedor</th>
-            <th rowspan="3" style="padding-left: 62px;">I.G.V.</th> 
-            <th rowspan="3">Total</th>           
-            <th rowspan="3" style="padding-left: 70px;">Producto</th>
-            <th rowspan="3" style="padding-left: 89px;">Cant.</th>
-            <th rowspan="3" style="padding-left: 7px;">P.U.</th>
-            <th rowspan="3" style="width: 20px;padding-left: 6px;">Sub-Total</th>
-            <th rowspan="3" style="width: 20px; padding-left: 18px;">Cod. Turno</th>
-            <th rowspan="3" style="width: 20px;padding-left: 13px;">Cod. Moneda</th>
-            <th rowspan="3" style="width: 20px;padding-left: 6px;">Forma de Pago</th>
-            <th rowspan="3" style="width: 20px;padding-left: 12px;">Nro. Op.</th>
+            <th rowspan="3" style="padding-left: 50px;">Forma Pago</th>
+            <th rowspan="3" style="width: 20px; padding-left: 62px;">Base Imponible</th> 
+            <th rowspan="3">I.G.V.</th>           
+            <th rowspan="3" style="padding-left: 70px;">Total</th>
+            <th rowspan="3" style="padding-left: 89px;">Cod. Turno</th>
+            <th colspan="4" style="padding-left: 7px;">Comprobante Referenciado</th>
+            <th rowspan="3" style="width: 20px;padding-left: 6px;">Cod. Moneda</th>
+            <th rowspan="3" style="width: 20px; padding-left: 18px;">Op. Gravadas</th>
+            <th rowspan="3" style="width: 20px;padding-left: 13px;">Op. Exoneradas</th>
+            <th rowspan="3" style="width: 20px;padding-left: 6px;">Op. Inafectas</th>
+            <th rowspan="3" style="width: 20px;padding-left: 12px;">Op. Gratuitas</th>
         </tr>
         <tr>
             <th rowspan="2" style="padding-left: 3px;">Tipo</th>
@@ -43,6 +44,10 @@
             <th rowspan="2" style="padding-left: 10px;">Numero</th>
             <th colspan="2" style="padding-left: 10px;">Doc. Identidad</th>
             <th rowspan="2" style="padding-left: 55px;">Nombre o Razón Social</th>
+            <th rowspan="2">Cod. Comp.</th>
+            <th rowspan="2">Serie Ref</th>
+            <th rowspan="2">Numero Ref</th>
+            <th rowspan="2">Fecha Ref</th>
         </tr>
         <tr>            
             <th>Tipo</th>
@@ -59,7 +64,7 @@
             <td style="padding-left: 5px;">00098758</td>
             <td style="padding-left: 8px;">6</td>
             <td style="padding-left: 12px;">20601761310</td>
-            <td>COCK OF THE ROCK LODGE SOCIEDAD ANONIMA CERRADA</td>
+            <td>fhgjfgghjgfhgfh</td>
             <td>9.49</td>
             <td>62.25</td>
             <td>RICO CHULETA DE CERDO C/LONJA</td>
